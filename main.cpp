@@ -1,5 +1,5 @@
 #include <gl/glut.h>
-
+#include <windows.h>
 float xrot=0;
 float yrot=0;
 float xdiff=0;
@@ -52,7 +52,7 @@ glutInit(&argc,argv);
 glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
 glutInitWindowPosition(240,80);
 glutInitWindowSize(700,600);
-glutCreateWindow("Gedungg ");
+glutCreateWindow("Gedungg afh iyh ");
 myinit();
 glutDisplayFunc(tampilan);
 glutMainLoop();
